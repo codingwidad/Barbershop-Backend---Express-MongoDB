@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://barbershop-frontend-c9bc85b848fb.herokuapp.com',
 }));
 app.use(bodyParser.json());
 app.use(cors());
