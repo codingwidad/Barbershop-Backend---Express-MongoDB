@@ -5,6 +5,8 @@ node_modules/
 build/
 *.log
 
+# Ignore environment variables file
+.env
 
 # Ignore OS-specific files
 .DS_Store

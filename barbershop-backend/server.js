@@ -9,12 +9,12 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://barbershop-frontend-c9bc85b848fb.herokuapp.com',
+  origin: 'http://localhost:3000',
 }));
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://brafikwidad:wMV7TvLLGUZssZT5@cluster-1.1fmyc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1")
+mongoose.connect(process.env.MONGODB_URI)
 .then(() => console.log('MongoDB connected!'))
 .catch(err => console.log('MongoDB connection error:', err));
 
