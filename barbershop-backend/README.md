@@ -28,7 +28,7 @@ To run the project locally, follow these steps:
 
 
 ## Deployment
-The Barbershop backend is deployed on Heroku. You can access it here: https://barbershop-frontend-c9bc85b848fb.herokuapp.com/
+The Barbershop backend is deployed on Heroku. You can access it here: https://barbershop-frontend-fii0.onrender.com
 
 ## Future Improvements
 This project was completed in 1 hour. If I had more time, I would:
